@@ -312,7 +312,6 @@ static int ROUNDS_IN_COUNTING = 1;   // 滚动到指定位置时跨过的完整�
                 [unit setScrollEnabled:YES];    // 数字，可滚动
             } else {
                 [unit setScrollEnabled:NO];     // 非数字，不可滚动
-                [unit reloadData];
             }
             unit.backgroundColor = [UIColor clearColor];
             unit.estimatedRowHeight = _unitSize.height;
